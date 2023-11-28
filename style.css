@@ -1,0 +1,175 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: linear-gradient(to right, silver , rgb(0, 149, 255));
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+
+}
+.title {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#inputik {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(117, 200, 228), pink);
+
+}
+.inputWrapper {
+    position: relative;
+}
+label {
+    display: block;
+    position: absolute;
+    top: -13px;
+    left: 12px;
+    height: 18px;
+    padding: 0 8px;
+    font-size: 12px;
+    margin-bottom: 0;
+
+}
+#butt1 {
+    width: 200px;
+    margin: 40px auto;
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  #butt1:active,
+  #butt1:hover {
+    outline: 0;
+  }
+  
+  #butt1 span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+  
+  #butt1:hover span {
+    background: none;
+  }
+
+.decimal_ip {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+}
+.decimal_ip_descr {
+    width: 500px;
+    height: 40px;
+}
+#decimal_ip_value {
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(117, 200, 228), pink);
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    height: 33.2px;
+    text-align: center;
+}
+.binary_ip {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    text-align: center;
+}
+.binary_ip_descr {
+    width: 500px;
+    height: 40px;
+}
+#binary_ip_value {
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(117, 200, 228), pink);
+}
+.marcs_string {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 100px;
+}
+.marcs_string_descr {
+    width: 500px;
+    height: 40px;
+}
+#marcs_string_value {
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(117, 200, 228), pink);
+}
+.ip_of_red {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 100px;
+}
+.ip_of_red_descr {
+    width: 500px;
+    height: 40px;
+}
+#ip_of_red_value {
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(117, 200, 228), pink);
+    
+}
+
+

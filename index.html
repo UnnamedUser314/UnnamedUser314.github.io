@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Permanent+Marker&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Permanent+Marker&family=Vina+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h1 class="title">Generador de IP</h1>
+        </div>
+        <div class="main"> 
+            
+            <input id="inputik" type="text" placeholder="Introduce numero de márcas" >
+
+            <button id="butt1"><span class="text">Generar IP</span></button>        
+            <div class="wrapper">
+                
+                <div class="decimal_ip">
+                    <p class="decimal_ip_descr">Tu IP generado:</p>
+                    <div class="inputWrapper">
+                        <input id="decimal_ip_value" naem="decimal_ip_value" type="text">
+                        <label for="decimal_ip_value">Cambiable</label>
+                    </div>
+                </div>
+                <div class="binary_ip">
+                    <p class="binary_ip_descr">Tu IP convertido en binario:</p>
+                    <p id="binary_ip_value"></p>
+                </div>
+                <div class="marcs_string">
+                    <p class="marcs_string_descr">Tu cadena de márcas:</p>
+                    <p id="marcs_string_value"></p>
+                </div>
+                <div class="ip_of_red">
+                    <p class="ip_of_red_descr">Tu ip de la red:</p>
+                    <p id="ip_of_red_value"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
